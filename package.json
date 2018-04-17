@@ -1,0 +1,11 @@
+{
+  "name": "eso-lang",
+  "version": "1.0.0",
+  "description": "The Elder Scrolls Online lang file extractor/compiler",
+  "main": "index.js",
+  "author": "Sam Goo",
+  "license": "GPL v2",
+  "scripts": {
+    "test": "node test.js"
+  }
+}
