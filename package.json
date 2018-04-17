@@ -4,8 +4,19 @@
   "description": "The Elder Scrolls Online lang file extractor/compiler",
   "main": "index.js",
   "author": "Sam Goo",
-  "license": "GPL v2",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/sam-9/eso-lang.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sam-9/eso-lang/issues"
+  },
   "scripts": {
     "test": "node test.js"
-  }
+  },
+  "engines": {
+    "node": ">= 6.0.0"
+  },
+  "license": "GPL v2",
+  "keywords": []
 }
