@@ -1,7 +1,7 @@
 const esolang = require('./index');
 const fs = require('fs');
 
-const { parser, compiler } = esolang;
+const { parse, compile } = esolang;
 
 const testRecords = [{ Id: 3427285, Unknown: 0, Index: 3, Offset: 0, Text: 'TEST1' },
   { Id: 3427285, Unknown: 0, Index: 7, Offset: 5, Text: 'TEST2' },
@@ -10,17 +10,17 @@ const testRecords = [{ Id: 3427285, Unknown: 0, Index: 3, Offset: 0, Text: 'TEST
 
 console.log('Now Compiling following records...');
 console.log(testRecords);
-const buf = compiler.compile(testRecords);
+const compiledBuffer = compile(testRecords);
 console.log('Done!');
 
 console.log('Now Writing compiled records as "test.lang"...');
-fs.writeFileSync('./test.lang', buf);
+fs.writeFileSync('./test.lang', compiledBuffer);
 console.log('Done!')
 
 console.log('Now Reading records from "test.lang"...');
-const buffer = fs.readFileSync('./test.lang');
+const langBuffer = fs.readFileSync('./test.lang');
 console.log('Done!');
 
 console.log('The results are...');
-const records = parser.parse(buffer);
+const records = parse(langBuffer);
 console.log(records);

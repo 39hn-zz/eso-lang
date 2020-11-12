@@ -6,10 +6,10 @@
   "author": "Sam Goo",
   "repository": {
     "type": "git",
-    "url": "git://github.com/sam-9/eso-lang.git"
+    "url": "git://github.com/39hn/eso-lang.git"
   },
   "bugs": {
-    "url": "https://github.com/sam-9/eso-lang/issues"
+    "url": "https://github.com/39hn/eso-lang/issues"
   },
   "scripts": {
     "test": "node test.js"

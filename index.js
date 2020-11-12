@@ -1,7 +1,7 @@
-const parser = require('./lib/langparser');
-const compiler = require('./lib/langcompiler');
+const parse = require('./lib/langparser');
+const compile = require('./lib/langcompiler');
 
 module.exports = {
-  compiler,
-  parser
+  compile,
+  parse
 };
