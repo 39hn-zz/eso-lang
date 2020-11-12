@@ -2,7 +2,7 @@
 
 Parse and compile The Elder Scrolls Online's *.lang* files with node.js.
 
-eso-lang is an adaption of [ESOAPPS](https://github.com/uesp/uesp-esoapps)'s EsoLangFile implementation.
+eso-lang is an adaption of [ESOAPPS](https://github.com/uesp/uesp-esoapps)'s EsoLangFile implementation for node.js.
 
 ## Usage
 
