@@ -12,11 +12,19 @@
     "url": "https://github.com/39hn/eso-lang/issues"
   },
   "scripts": {
-    "test": "node test.js"
+    "test": "jest"
   },
   "engines": {
     "node": ">= 6.0.0"
   },
   "license": "GPL v2",
-  "keywords": ["TESO", "ESO", "lang"]
+  "keywords": [
+    "TESO",
+    "ESO",
+    "lang"
+  ],
+  "devDependencies": {
+    "@types/jest": "^28.1.6",
+    "jest": "^28.1.3"
+  }
 }
