@@ -17,7 +17,7 @@
   "engines": {
     "node": ">= 6.0.0"
   },
-  "license": "GPL v2",
+  "license": "GPL-2.0",
   "keywords": [
     "TESO",
     "ESO",
